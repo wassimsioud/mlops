@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/wassi/Documents/MLops/TP1/mlruns/1/models/m-e102673ace474837983428665123661b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.17.1
+model_id: m-e102673ace474837983428665123661b
+model_size_bytes: 160814
+model_uuid: m-e102673ace474837983428665123661b
+prompts: null
+run_id: e278b91771c8481a898d1ff2affb17bf
+utc_time_created: '2026-10-20 08:36:58.845982'
